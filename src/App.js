@@ -1,8 +1,12 @@
-import { Container } from './components/Container';
-// import { Stopwatch } from './components/Stopwatch';
+import Container from './components/Container';
+import Stopwatch from './components/Stopwatch';
 
 function App() {
-  return <Container></Container>;
+  return (
+    <Container>
+      <Stopwatch />
+    </Container>
+  );
 }
 
 export default App;
